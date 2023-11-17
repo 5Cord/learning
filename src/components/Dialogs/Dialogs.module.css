@@ -1,0 +1,26 @@
+.dialogs {
+  display: grid;
+  grid-template-columns: 2fr 10fr;
+}
+.dialogsItems {
+  color: white;
+}
+.dialog {
+  margin-left: 20px;
+  padding: 10px;
+}
+.dialogsItems .active {
+  color: #ffc09a;
+}
+.messages {
+}
+.message {
+  margin-left: 20px;
+  padding: 10px;
+}
+.message:nth-child(even) {
+  margin-left: 200px;
+}
+
+.dialogsItems {
+}

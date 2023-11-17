@@ -1,13 +1,23 @@
 .app-wrapper {
   display: grid;
-  width: 1200px;
+  width: 100%;
   margin: 0 auto;
 
   grid-template-areas:
     "h h"
     "n c";
 
-  grid-template-rows: 60px 1fr;
+  grid-template-rows: 50px 1fr;
   grid-template-columns: 2fr 10fr;
-  /* grid-gap: 10px; */
+}
+
+.app-wrapper-content {
+  grid-area: c;
+  background-color: #9f7e69;
+  width: 1268px;
+}
+
+.activeLink {
+  color: #9f7e69;
+  font-weight: bold;
 }

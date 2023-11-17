@@ -5,7 +5,8 @@ const Header = () => {
   return (
     <header className={cl.header}>
       <img
-        src="https://i.pinimg.com/originals/34/4d/b3/344db311e0f07ec18a0ed7b91cf80a7c.png"
+        className={cl.logo}
+        src="https://upload.wikimedia.org/wikipedia/commons/b/be/Chigai_kuginuki.png"
         alt="logo"
       ></img>
     </header>

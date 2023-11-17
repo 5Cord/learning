@@ -1,0 +1,15 @@
+.wall textarea {
+  width: 520px;
+}
+
+.wall {
+  margin-left: 30px;
+  color: rgb(255, 204, 204);
+}
+
+.HWall {
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  font-size: 200%;
+  margin: 5px 0 20px 0;
+}
