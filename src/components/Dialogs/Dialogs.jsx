@@ -3,7 +3,7 @@ import cl from "./Dialogs.module.css";
 import { Link, NavLink } from "react-router-dom";
 
 const DialogItem = (props) => {
-  let path = "/dialogs/" + props.id;
+  let path = "/dialogs/?" + props.id;
   return (
     <div className={cl.dialog + " " + cl.active}>
       <NavLink to={path}>{props.name}</NavLink>
@@ -21,7 +21,6 @@ const Dialogs = (props) => {
     { id: 3, name: "Vyachaslav" },
     { id: 4, name: "Sergey" },
   ];
-
 
   let messages = [
     { id: 1, message: "Привет" },
